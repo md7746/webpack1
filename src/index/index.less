@@ -1,0 +1,124 @@
+/*———————————— import ————————————*/
+@import "../static/init";
+@import "../static/global";
+
+/*———————————— 关于我们 ————————————*/
+#about{
+    &{.oh();.bg(url(images/about-bg.jpg));.pr();.z1();}
+    .con-wrap{.oh();.pb(106px);}
+    h2{.c(#3e3e3e);.ff(@fe);.fw(300);.f(70px);}
+    h2 i{.w(740px);.mt(28px);}
+    .intro{
+        &{.w(372px);.fl();}
+        h3{.f(24px);.mb(23px);.mt(58px);.c(#2c2c2c);}
+        p{.tj();.lh(22px);.c(#595959);}
+    }
+    .info{
+        &{.w(482px);.fr();.pr();.l(180px);.op(0);.transition(2s);}
+        &.show{.l(0);.op(100);}
+        h3{.f(20px);.c(#4a4a4a);.mt(80px);.mb(30px);}
+        h3 span{.f(10px);.ff(@fe);.ml(8px);}
+        table th{.c(#2a2a2a);.pl(4px);.w(180px);.f(13px);.h(33px);.pt(6px);.tl();.bt(1px solid #dedede);}
+        table td{.c(#5b5b5b);.f(13px);.h(33px);.pt(6px);.bt(1px solid #dedede);}
+    }
+}
+/*———————————— 服务领域 ————————————*/
+#service{
+    &{.bg(url(images/service-bg.jpg));.pr();.z1();}
+    .con-wrap{.oh();.pb(90px);}
+    h2{.ff(@fe);.f(70px);.c(#77c59e);.fw(300);.mb(20px);}
+    h2 span{.f(19px);.ff(@ft);.ml(8px);}
+    h2 i{.w(600px);}
+    section{
+        &{.w(464px);.pt(8px);.h(118px);.bg(#5c5c5c);.fl();.mr(20px);.mt(20px);.bl(10px #77c59e solid);.pl(16px);.pr();.op(0);.transition(.8s);.t(90px);}
+        &.show{.t(0);.op(100);}
+        h3{.ff(@ft);.c(#ececec);.f(18px);}
+        h3 i{.mr(16px);.w(41px);.h(41px);.vm();}
+        p{.ff(@ft);.c(#bdbdbd);.p(10px);.lh(22px);}
+    }
+    .mr0{.mr(0);}
+    .serv-ico1{.dib();.bg(url(images/ico/s-ico1.png));}
+    .serv-ico2{.dib();.bg(url(images/ico/s-ico2.png));}
+    .serv-ico3{.dib();.bg(url(images/ico/s-ico3.png));}
+    .serv-ico4{.dib();.bg(url(images/ico/s-ico4.png));}
+}
+/*———————————— 意合动态 && 发展历史 ————————————*/
+#dynamic,#history{
+    &{.bg(url(images/dynamic-bg.jpg));.pr();.z1();}
+    .con-wrap{.oh();.pb(90px);}
+    h2{.ff(@fe);.f(70px);.c(#606060);.fw(300);.mb(40px);}
+    h2 span{.f(19px);.ff(@ft);.ml(8px);}
+    h2 i{.w(580px);}
+    ul{.ml(71px);.bg(url(images/col-bg.png) repeat-y);}
+    ul li{
+        &{.pr();.mb(20px);.cp();}
+        time{.pa();.w(128px);.l(-71px);.t(24px);.lh(23px);.db();}
+        time i{.db();.w(23px);.h(23px);.fr();.mr(26px);}
+        time i.show{.bg(url(images/ico/show-ico.png));}
+        time i.hide{.bg(url(images/ico/hide-ico.png));}
+        time ins{.bg(url(images/ico/arrow-ico.png));.w(18px);.h(21px);.db();.fr();.mt(1px);}
+        div{
+            &{.ml(57px);.p(28px 32px);.bg(#5c5c5c);.f(14px);.brs(9px);}
+            h4{.c(#f8f8f8);.ff(@ft);}
+            span{.c(#abe9f4);.mt(28px);.mb(16px);.db();}
+            p{.c(#ececec);.f(13px);.lh(21px);}
+            a{.c(#abe9f4);}
+            a:hover{.tdu();}
+        }
+    }
+}
+/*———————————— 发展历史 ————————————*/
+#history{
+    &{.bg(url(images/history-bg.jpg));}
+    h2{.c(#6cbcd2);.ff(@ft);.f(55px);}
+    h2 span{.f(18px);.fw(300);}
+    h2 i{.w(690px);.mt(38px);}
+    h3{.f(24px);.ff(@ft);.mb(25px);.c(#949494);}
+    h3 span{.f(14px);.ff(@fc);.ml(8px);}
+    ul{.ml(114px);}
+    ul li{
+        time{.c(#797979);.w(172px);.l(-114px);}
+        div{.ml(58px);.pr();.t(-28px);.op(0);.transition(1s);}
+        div.show{.t(0);.op(100);}
+        div h4{.f(18px);.c(#bfbfbf);.lh(26px);}
+    }
+}
+/*———————————— 设计案例 ————————————*/
+#case{
+    &{.bg(url(images/example-bg.jpg));.pr();.z1();}
+    h2{.c(#606060);.ff(@ft);.f(55px);}
+    h2 span{.f(18px);.fw(300);.ml(8px);}
+    h2 i{.w(720px);.mt(38px);}
+    .con-wrap{.oh();.pb(90px);}
+    ul{.pr();.z1();.ml(-20px);.mt(68px);}
+    ul li{
+        &{.w(235px);.h(235px);.fl();.ml(20px);.mb(20px);.pr();.oh();.op(0);.transition(1s);.t(90px);}
+        &.show{.op(100);.t(0);}
+        img{.w(235px);.h(235px);}
+        div{.pa();.t(0);.l(0);.w(235px);.h(235px);.c();.f(24px);.op(0);.ff(@ft);.tc();.rotate(-90deg);.transform-origin(top left);.transition(.3s);}
+        div h4{.lh(50px);.mt(67px);}
+        div h4 span{.ff(@fe);.f(36px);.fn();}
+        div.bg{.bg(#32b0bd);}
+        &:hover div{.rotate(0deg);.op(100);}
+        &:hover div.bg{.op(77);}
+    }
+}
+/*———————————— 联系我们 ————————————*/
+#contact{
+    &{.bg(url(images/contact-bg.jpg));.pr();.z1();}
+    h2{.c(#3e3e3e);.ff(@ft);.f(55px);.mb(48px);}
+    .con-wrap{.oh();}
+    p{.lh(22px);}
+    form{
+        &{.mt(32px);}
+        label{.bg(#fff);.p(15px 27px);.hlh(25px);.w(426px);.db();.fl();.ml(20px);}
+        input{.bd(0);.hlh(25px);}
+        .msg{.w(946px);.mt(18px);.oh();.h(174px);.ml(0);}
+        textarea{.bd(0);.vt();.lh(25px);.w(950px);.h(150px);}
+        .firlabel{.w(446px);.ml(0);}
+        button{.mt(16px);.tc();.hlh(35px);.mr(7px);.w(135px);.bg(#3e3e3e);.f(14px);.c();.bd(none);.cp();}
+        button.reset{.bg(#00aeff);.w(89px);}
+        .prompt span{.mr(15px);}
+    }
+    #l-map{.h(726px);.w(100%);.mt(90px);}
+}

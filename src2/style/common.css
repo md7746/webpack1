@@ -1,0 +1,192 @@
+/*———————————— import ————————————*/
+/*---------------init----------------*/
+/*链接*/
+/*边距*/
+/*边框*/
+/*字体*/
+/*容器*/
+/*布局/排版*/
+/*其它*/
+/*---------------css3----------------
+
+/*:after*/
+/*圆角*/
+/*-------------------------------------------------------------------------------------------------*/
+/*颜色*/
+/*字体*/
+/*———————————— init ————————————*/
+html {
+  overflow-y: scroll;
+}
+/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 100%;
+}
+ul,
+ol {
+  list-style: none;
+}
+p {
+  text-align: justify;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+/* 使得表单元素在 ie 下能继承字体大小 */
+:focus {
+  outline: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+figure {
+  margin: 0;
+}
+/*清除浮动*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+/*———————————— common ————————————*/
+.none {
+  display: none;
+}
+body {
+  font-size: 12px;
+}
+.wrap {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1663px;
+}
+.con-wrap {
+  margin: 0 auto;
+  width: 1000px;
+}
+/*———————————— tit ————————————*/
+h2 {
+  padding-top: 90px;
+}
+h2 span {
+  font-size: 19px;
+}
+h2 i {
+  float: right;
+  background: url(images/row-bg.png) repeat-x;
+  display: inline-block;
+  height: 5px;
+  margin-top: 53px;
+}
+h3 {
+  font-family: '\9ED1\4F53', Microsoft YaHei, '\5b8b\4f53';
+  font-weight: normal;
+}
+/*———————————— header ————————————*/
+#header {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+#header h1 {
+  background: url(images/header-bg.jpg) no-repeat top center;
+  height: 855px;
+}
+#header nav {
+  background: #3e3e3e;
+  width: 100%;
+}
+#header nav.shadow {
+  -webkit-box-shadow: 0 2px 8px rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: 0 2px 8px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.3);
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+#header nav a {
+  font-size: 16px;
+  font-family: '\9ED1\4F53', Microsoft YaHei, '\5b8b\4f53';
+  display: inline-block;
+  text-align: center;
+  line-height: 24px;
+  width: 144px;
+  color: #ededed;
+  padding-top: 16px;
+  height: 54px;
+  cursor: pointer;
+}
+#header nav a.on {
+  background: #242424;
+}
+#header nav a:hover {
+  background: #303030;
+}
+#header nav a.on:hover {
+  background: #242424;
+}
+#header nav a span {
+  font-size: 10px;
+  font-family: Microsoft YaHei, Arial;
+  color: #898989;
+}
+/*———————————— footer ————————————*/
+#footer {
+  height: 70px;
+  line-height: 70px;
+  background: #3e3e3e;
+}
+#footer p {
+  color: #848482;
+}
+#footer span {
+  float: right;
+  color: #d3d3d3;
+  cursor: pointer;
+}
+#footer span i {
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  background: url(images/ico/top-ico.jpg);
+  margin-left: 18px;
+}

@@ -1,0 +1,52 @@
+/*———————————— import ————————————*/
+@import "../static/init";
+@import "../static/global";
+
+/*———————————— init ————————————*/
+html{overflow-y:scroll;}/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+body,h1,h2,h3,h4,p,dl,dt,dd,ul,ol,li,button,input,textarea,th,td {margin:0;padding:0;}
+h1,h2,h3,h4{.lh(100%);}
+ul,ol{list-style:none;}
+p{.tj();}
+a{text-decoration:none;}
+img{border:none;}
+button,input,select,textarea{font-size:100%;}/* 使得表单元素在 ie 下能继承字体大小 */
+:focus{outline:0}
+table{border-collapse:collapse;border-spacing:0;}
+figure{margin:0;}
+/*清除浮动*/
+.clearfix:after{content:".";display:block;clear:both;visibility:hidden;height:0;font-size:0;}
+.clearfix{*zoom:1;} 
+
+/*———————————— common ————————————*/
+.none{.dn();}
+body{.f();}
+.wrap{.m(0 auto);.w(100%);.maw(1663px);}
+.con-wrap{.m(0 auto);.w(1000px);}
+
+/*———————————— tit ————————————*/
+h2{.pt(90px);}
+h2 span{.f(19px);}
+h2 i{.fr();.bg(url(images/row-bg.png) repeat-x);.dib();.h(5px);.mt(53px);}
+h3{.ff(@ft);.fn();}
+
+/*———————————— header ————————————*/
+#header{
+    &{.tc();.pr();.zi(2);}
+    h1{.bg(url(images/header-bg.jpg) no-repeat top center);.h(855px);}
+    nav{.bg(#3e3e3e);.w(100%);}
+    nav.shadow{.bs(0 2px 8px rgba(255,255,255,.3));.pf();.l(0);.t(0);}
+    nav a{.f(16px);.ff(@ft);.dib();.tc();.lh(24px);.w(144px);.c(#ededed);.pt(16px);.h(54px);.cp();}
+    nav a.on{.bg(#242424);}
+    nav a:hover{.bg(#303030);}
+    nav a.on:hover{.bg(#242424);}
+    nav a span{.f(10px);.ff(@fe);.c(#898989);}
+}
+
+/*———————————— footer ————————————*/
+#footer{
+    &{.hlh(70px);.bg(#3e3e3e);}
+    p{.c(#848482);}
+    span{.fr();.c(#d3d3d3);.cp();}
+    span i{.dib();.w(13px);.h(9px);.bg(url(images/ico/top-ico.jpg));.ml(18px);}
+}

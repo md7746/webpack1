@@ -1,0 +1,533 @@
+/*———————————— import ————————————*/
+/*---------------init----------------*/
+/*链接*/
+/*边距*/
+/*边框*/
+/*字体*/
+/*容器*/
+/*布局/排版*/
+/*其它*/
+/*---------------css3----------------
+
+/*:after*/
+/*圆角*/
+/*-------------------------------------------------------------------------------------------------*/
+/*颜色*/
+/*字体*/
+/*———————————— 关于我们 ————————————*/
+#about {
+  overflow: hidden;
+  background: url(images/about-bg.jpg);
+  position: relative;
+  *zoom: 1;
+}
+#about .con-wrap {
+  overflow: hidden;
+  padding-bottom: 106px;
+}
+#about h2 {
+  color: #3e3e3e;
+  font-family: Microsoft YaHei, Arial;
+  font-weight: 300;
+  font-size: 70px;
+}
+#about h2 i {
+  width: 740px;
+  margin-top: 28px;
+}
+#about .intro {
+  width: 372px;
+  float: left;
+}
+#about .intro h3 {
+  font-size: 24px;
+  margin-bottom: 23px;
+  margin-top: 58px;
+  color: #2c2c2c;
+}
+#about .intro p {
+  text-align: justify;
+  line-height: 22px;
+  color: #595959;
+}
+#about .info {
+  width: 482px;
+  float: right;
+  position: relative;
+  left: 180px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -ms-transition: 2s;
+  transition: 2s;
+}
+#about .info.show {
+  left: 0;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#about .info h3 {
+  font-size: 20px;
+  color: #4a4a4a;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+#about .info h3 span {
+  font-size: 10px;
+  font-family: Microsoft YaHei, Arial;
+  margin-left: 8px;
+}
+#about .info table th {
+  color: #2a2a2a;
+  padding-left: 4px;
+  width: 180px;
+  font-size: 13px;
+  height: 33px;
+  padding-top: 6px;
+  text-align: left;
+  border-top: 1px solid #dedede;
+}
+#about .info table td {
+  color: #5b5b5b;
+  font-size: 13px;
+  height: 33px;
+  padding-top: 6px;
+  border-top: 1px solid #dedede;
+}
+/*———————————— 服务领域 ————————————*/
+#service {
+  background: url(images/service-bg.jpg);
+  position: relative;
+  *zoom: 1;
+}
+#service .con-wrap {
+  overflow: hidden;
+  padding-bottom: 90px;
+}
+#service h2 {
+  font-family: Microsoft YaHei, Arial;
+  font-size: 70px;
+  color: #77c59e;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+#service h2 span {
+  font-size: 19px;
+  font-family: '\9ED1\4F53', Microsoft YaHei, '\5b8b\4f53';
+  margin-left: 8px;
+}
+#service h2 i {
+  width: 600px;
+}
+#service section {
+  width: 464px;
+  padding-top: 8px;
+  height: 118px;
+  background: #5c5c5c;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-left: 10px #77c59e solid;
+  padding-left: 16px;
+  position: relative;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  transition: 0.8s;
+  top: 90px;
+}
+#service section.show {
+  top: 0;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#service section h3 {
+  font-family: '\9ED1\4F53', Microsoft YaHei, '\5b8b\4f53';
+  color: #ececec;
+  font-size: 18px;
+}
+#service section h3 i {
+  margin-right: 16px;
+  width: 41px;
+  height: 41px;
+  vertical-align: middle;
+}
+#service section p {
+  font-family: '\9ED1\4F53', Microsoft YaHei, '\5b8b\4f53';
+  color: #bdbdbd;
+  padding: 10px;
+  line-height: 22px;
+}
+#service .mr0 {
+  margin-right: 0;
+}
+#service .serv-ico1 {
+  display: inline-block;
+  background: url(images/ico/s-ico1.png);
+}
+#service .serv-ico2 {
+  display: inline-block;
+  background: url(images/ico/s-ico2.png);
+}
+#service .serv-ico3 {
+  display: inline-block;
+  background: url(images/ico/s-ico3.png);
+}
+#service .serv-ico4 {
+  display: inline-block;
+  background: url(images/ico/s-ico4.png);
+}
+/*———————————— 意合动态 && 发展历史 ————————————*/
+#dynamic,
+#history {
+  background: url(images/dynamic-bg.jpg);
+  position: relative;
+  *zoom: 1;
+}
+#dynamic .con-wrap,
+#history .con-wrap {
+  overflow: hidden;
+  padding-bottom: 90px;
+}
+#dynamic h2,
+#history h2 {
+  font-family: Microsoft YaHei, Arial;
+  font-size: 70px;
+  color: #606060;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+#dynamic h2 span,
+#history h2 span {
+  font-size: 19px;
+  font-family: '\9ED1\4F53', Microsoft YaHei, '\5b8b\4f53';
+  margin-left: 8px;
+}
+#dynamic h2 i,
+#history h2 i {
+  width: 580px;
+}
+#dynamic ul,
+#history ul {
+  margin-left: 71px;
+  background: url(images/col-bg.png) repeat-y;
+}
+#dynamic ul li,
+#history ul li {
+  position: relative;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#dynamic ul li time,
+#history ul li time {
+  position: absolute;
+  width: 128px;
+  left: -71px;
+  top: 24px;
+  line-height: 23px;
+  display: block;
+}
+#dynamic ul li time i,
+#history ul li time i {
+  display: block;
+  width: 23px;
+  height: 23px;
+  float: right;
+  margin-right: 26px;
+}
+#dynamic ul li time i.show,
+#history ul li time i.show {
+  background: url(images/ico/show-ico.png);
+}
+#dynamic ul li time i.hide,
+#history ul li time i.hide {
+  background: url(images/ico/hide-ico.png);
+}
+#dynamic ul li time ins,
+#history ul li time ins {
+  background: url(images/ico/arrow-ico.png);
+  width: 18px;
+  height: 21px;
+  display: block;
+  float: right;
+  margin-top: 1px;
+}
+#dynamic ul li div,
+#history ul li div {
+  margin-left: 57px;
+  padding: 28px 32px;
+  background: #5c5c5c;
+  font-size: 14px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+#dynamic ul li div h4,
+#history ul li div h4 {
+  color: #f8f8f8;
+  font-family: '\9ED1\4F53', Microsoft YaHei, '\5b8b\4f53';
+}
+#dynamic ul li div span,
+#history ul li div span {
+  color: #abe9f4;
+  margin-top: 28px;
+  margin-bottom: 16px;
+  display: block;
+}
+#dynamic ul li div p,
+#history ul li div p {
+  color: #ececec;
+  font-size: 13px;
+  line-height: 21px;
+}
+#dynamic ul li div a,
+#history ul li div a {
+  color: #abe9f4;
+}
+#dynamic ul li div a:hover,
+#history ul li div a:hover {
+  text-decoration: underline;
+}
+/*———————————— 发展历史 ————————————*/
+#history {
+  background: url(images/history-bg.jpg);
+}
+#history h2 {
+  color: #6cbcd2;
+  font-family: '\9ED1\4F53', Microsoft YaHei, '\5b8b\4f53';
+  font-size: 55px;
+}
+#history h2 span {
+  font-size: 18px;
+  font-weight: 300;
+}
+#history h2 i {
+  width: 690px;
+  margin-top: 38px;
+}
+#history h3 {
+  font-size: 24px;
+  font-family: '\9ED1\4F53', Microsoft YaHei, '\5b8b\4f53';
+  margin-bottom: 25px;
+  color: #949494;
+}
+#history h3 span {
+  font-size: 14px;
+  font-family: '\5b8b\4f53', Microsoft YaHei;
+  margin-left: 8px;
+}
+#history ul {
+  margin-left: 114px;
+}
+#history ul li time {
+  color: #797979;
+  width: 172px;
+  left: -114px;
+}
+#history ul li div {
+  margin-left: 58px;
+  position: relative;
+  top: -28px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  transition: 1s;
+}
+#history ul li div.show {
+  top: 0;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#history ul li div h4 {
+  font-size: 18px;
+  color: #bfbfbf;
+  line-height: 26px;
+}
+/*———————————— 设计案例 ————————————*/
+#case {
+  background: url(images/example-bg.jpg);
+  position: relative;
+  *zoom: 1;
+}
+#case h2 {
+  color: #606060;
+  font-family: '\9ED1\4F53', Microsoft YaHei, '\5b8b\4f53';
+  font-size: 55px;
+}
+#case h2 span {
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 8px;
+}
+#case h2 i {
+  width: 720px;
+  margin-top: 38px;
+}
+#case .con-wrap {
+  overflow: hidden;
+  padding-bottom: 90px;
+}
+#case ul {
+  position: relative;
+  *zoom: 1;
+  margin-left: -20px;
+  margin-top: 68px;
+}
+#case ul li {
+  width: 235px;
+  height: 235px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  transition: 1s;
+  top: 90px;
+}
+#case ul li.show {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  top: 0;
+}
+#case ul li img {
+  width: 235px;
+  height: 235px;
+}
+#case ul li div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 235px;
+  height: 235px;
+  color: #fff;
+  font-size: 24px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  font-family: '\9ED1\4F53', Microsoft YaHei, '\5b8b\4f53';
+  text-align: center;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+#case ul li div h4 {
+  line-height: 50px;
+  margin-top: 67px;
+}
+#case ul li div h4 span {
+  font-family: Microsoft YaHei, Arial;
+  font-size: 36px;
+  font-weight: normal;
+}
+#case ul li div.bg {
+  background: #32b0bd;
+}
+#case ul li:hover div {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#case ul li:hover div.bg {
+  opacity: 0.77;
+  filter: alpha(opacity=77);
+}
+/*———————————— 联系我们 ————————————*/
+#contact {
+  background: url(images/contact-bg.jpg);
+  position: relative;
+  *zoom: 1;
+}
+#contact h2 {
+  color: #3e3e3e;
+  font-family: '\9ED1\4F53', Microsoft YaHei, '\5b8b\4f53';
+  font-size: 55px;
+  margin-bottom: 48px;
+}
+#contact .con-wrap {
+  overflow: hidden;
+}
+#contact p {
+  line-height: 22px;
+}
+#contact form {
+  margin-top: 32px;
+}
+#contact form label {
+  background: #fff;
+  padding: 15px 27px;
+  height: 25px;
+  line-height: 25px;
+  width: 426px;
+  display: block;
+  float: left;
+  margin-left: 20px;
+}
+#contact form input {
+  border: 0;
+  height: 25px;
+  line-height: 25px;
+}
+#contact form .msg {
+  width: 946px;
+  margin-top: 18px;
+  overflow: hidden;
+  height: 174px;
+  margin-left: 0;
+}
+#contact form textarea {
+  border: 0;
+  vertical-align: top;
+  line-height: 25px;
+  width: 950px;
+  height: 150px;
+}
+#contact form .firlabel {
+  width: 446px;
+  margin-left: 0;
+}
+#contact form button {
+  margin-top: 16px;
+  text-align: center;
+  height: 35px;
+  line-height: 35px;
+  margin-right: 7px;
+  width: 135px;
+  background: #3e3e3e;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+#contact form button.reset {
+  background: #00aeff;
+  width: 89px;
+}
+#contact form .prompt span {
+  margin-right: 15px;
+}
+#contact #l-map {
+  height: 726px;
+  width: 100%;
+  margin-top: 90px;
+}
